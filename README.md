@@ -1,3 +1,5 @@
+## PENDING, in progress!
+
 # Supervised Machine Learning Project - Predicting Credit Risk
 
 In this project, I will be building a machine learning model that attempts to predict whether a loan from LendingClub will become high risk or not. 
