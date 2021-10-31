@@ -1,5 +1,3 @@
-## PENDING, in progress!
-
 # Supervised Machine Learning Project - Predicting Credit Risk
 
 In this project, I will be building a machine learning model that attempts to predict whether a loan from LendingClub will become high risk or not. 
@@ -22,7 +20,11 @@ I created and compared two models on this data: a logistic regression, and a ran
 
 I created a LogisticRegression model, fit it to the data, and printed the model's score. Then I did the same for a RandomForestClassifier. I randomly chose a hyperparameters and compared my predection to the results.
 
+![Unscaled Model](Static/Images/unscaled.png)
+
 ## Revisit the Preprocessing: Scale the data
 
 The data going into these models was never scaled therefore I used `StandardScaler` to scale the training and testing sets. Before re-fitting the LogisticRegression and RandomForestClassifier models on the scaled data, I made another prediction about how I thought scaling would affect the accuracy of the models.
 
+
+![Scaled Model](Static/Images/scaled.png)
